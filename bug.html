@@ -1,0 +1,7 @@
+```html
+<div class="flex">
+  <div class="bg-red-500 p-4 w-1/2"></div>
+  <div class="bg-blue-500 p-4 w-1/2"></div>
+</div>
+```
+This code snippet is expected to create a flex container with two equally sized div elements, each with a different background color. However, due to a common misconception, the `w-1/2` class does not directly translate to 50% width within a flex container.  In flexbox, the default behavior is for items to take up only the space they need.  Therefore, each div would only take up the minimum width necessary to accommodate its content (the padding), leading to unexpected behavior.
